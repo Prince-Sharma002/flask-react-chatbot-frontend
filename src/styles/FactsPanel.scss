@@ -1,0 +1,106 @@
+.facts-panel {
+    width: 80%;
+    margin: 10rem auto;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.fact-item {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #000000;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.fact-text {
+    width: 70%;
+    word-wrap: break-word;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100px;
+    transition: background-color 0.3s ease;
+    margin:0 0.5rem 0 0;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.save-btn {
+    background-color: rgba(49, 197, 106, 0.979);
+}
+
+.edit-btn {
+    background-color: rgb(55, 158, 255);
+}
+
+.delete-btn {
+    background-color: rgb(255, 57, 57);
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
+
+/* Fixed width for buttons */
+button {
+    min-width: 80px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .facts-panel {
+        width: 95%;
+    }
+
+    .fact-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .actions {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .fact-text {
+        width: 100%;
+    }
+}
