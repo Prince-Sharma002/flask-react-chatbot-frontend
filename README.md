@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+🚀 **Excited to Announce My New Project: Mission Pilot** 🌟  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Mission Pilot** is an **AI-powered learning chatbot** built to simplify **knowledge sharing, fact extraction**, and **quick response capabilities**.  
 
-## Available Scripts
+### 🌍 **Designed for Critical Missions**  
+This app is perfect for scenarios where storing **important facts** and delivering **instant responses** is crucial. Whether it's for **space missions**, **research expeditions**, or **disaster management**, Mission Pilot ensures that critical information is always at your fingertips and easy to update.  
 
-In the project directory, you can run:
+---
 
-### `npm start`
+### 💡 **Core Features**  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1️⃣ **Generate Facts Component**  
+   - Extracts essential facts from input text.  
+   - **How it works**:  
+     - Counts **word frequency** and **normalizes words**.  
+     - Calculates **sentence scores** for relevance.  
+     - Extracts **Named Entities** (like `ORG`, `PERSON`, `GPE`, `PRODUCT`) for dynamic titles.  
+     - Uses the **subject** of sentences and **noun chunks** to identify key data points.  
+   - Stores all generated facts in a **JSON file** for easy retrieval.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2️⃣ **View Facts Component**  
+   - View, edit, and delete stored facts effortlessly.  
 
-### `npm test`
+3️⃣ **Mission Pilot Chatbot**  
+   - **Smart Response System**:  
+      - Quickly answers queries based on stored JSON data.  
+      - If the answer isn't already stored, it prompts the user to provide one and saves it for future use.  
+   - **Voice Input & Output**: Makes interactions seamless and accessible in high-pressure scenarios.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+### 🚀 **Mission-Ready Advantages**  
+🔑 **Critical Knowledge Storage**: Capture and manage essential facts in real time.  
+⚡ **Quick Responses**: Provides answers instantly, even during time-sensitive operations.  
+💡 **Dynamic Learning**: Adapts by asking for user input when unknown queries arise, ensuring the chatbot grows smarter with every interaction.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🛠️ **Technology Stack**  
+- **Frontend**: React, SCSS  
+- **Backend**: Flask, Python  
+- **Data Management**: JSON  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+This app is a game-changer for **mission-critical tasks** where **accuracy** and **speed** are non-negotiable. I’m thrilled to bring this innovation to life and would love your feedback or ideas for collaboration. 🌐  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**#MissionPilot #AIForMissions #AIChatbot #CriticalKnowledge #QuickResponse #ReactJS #Flask #Python #SCSS**
